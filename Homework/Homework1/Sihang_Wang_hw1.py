@@ -33,7 +33,7 @@ def get_recent_message(person):
     # EXPECTED RETURN : {"sender": "john", "receiver": "david", "body": "hello", "timestamp": 1674539458} or None
     with open(CONFIG_FILE) as file:
         config = json.load(file)
-    url = f"{config['dburl']}{config['node']}.json?orderBy=\"timestamp\"&limitToLast=1&print=pretty"
+    url = f"{config['dburl']}{config['node']}.json?orderBy=\"timestamp\"&limitToLast=1"
     try:
         response = requests.get(url)
         response.raise_for_status()
@@ -54,7 +54,7 @@ def get_recent_message(person):
 def get_last_k_messages(person1, person2, k):
     with open(CONFIG_FILE) as file:
         config = json.load(file)
-    url = f"{config['dburl']}{config['node']}.json?orderBy=\"timestamp\"&limitToLast={k}&print=pretty"
+    url = f"{config['dburl']}{config['node']}.json?orderBy=\"timestamp\"&limitToLast={k}"
     try:
         response = requests.get(url)
         response.raise_for_status()
