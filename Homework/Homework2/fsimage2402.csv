@@ -1,0 +1,7 @@
+Path,Replication,ModificationTime,AccessTime,PreferredBlockSize,BlocksCount,FileSize,NSQUOTA,DSQUOTA,Permission,UserName,GroupName
+/,0,2025-02-05 23:20,1970-01-01 0:00,0,0,0,9223372036854775807,-1,drwxr-xr-x,ubuntu,supergroup
+/home,0,2025-02-05 23:19,1970-01-01 0:00,0,0,0,-1,-1,drwxr-xr-x,ubuntu,supergroup
+/home/ubuntu,0,2025-02-05 23:19,1970-01-01 0:00,0,0,0,-1,-1,drwxr-xr-x,ubuntu,supergroup
+/user,0,2025-02-05 23:20,1970-01-01 0:00,0,0,0,-1,-1,drwxr-xr-x,ubuntu,supergroup
+/user/john,0,2025-02-05 23:27,1970-01-01 0:00,0,0,0,-1,-1,drwxr-xr-x,ubuntu,supergroup
+/user/john/README.txt,1,2025-02-05 23:30,2025-02-06 0:38,134217728,1,350,0,0,-rw-r--r--,ubuntu,supergroup
