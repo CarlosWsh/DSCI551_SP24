@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FileSystemMetadata>
+  <File>
+    <Path>/</Path>
+    <Replication>0</Replication>
+    <ModificationTime>2025-02-05 23:20</ModificationTime>
+    <AccessTime>1970-01-01 0:00</AccessTime>
+    <Permission>drwxr-xr-x</Permission>
+    <UserName>ubuntu</UserName>
+    <GroupName>supergroup</GroupName>
+  </File>
+  <File>
+    <Path>/home</Path>
+    <Replication>0</Replication>
+    <ModificationTime>2025-02-05 23:19</ModificationTime>
+    <AccessTime>1970-01-01 0:00</AccessTime>
+    <Permission>drwxr-xr-x</Permission>
+    <UserName>ubuntu</UserName>
+    <GroupName>supergroup</GroupName>
+  </File>
+  <File>
+    <Path>/home/ubuntu</Path>
+    <Replication>0</Replication>
+    <ModificationTime>2025-02-05 23:19</ModificationTime>
+    <AccessTime>1970-01-01 0:00</AccessTime>
+    <Permission>drwxr-xr-x</Permission>
+    <UserName>ubuntu</UserName>
+    <GroupName>supergroup</GroupName>
+  </File>
+  <File>
+    <Path>/user</Path>
+    <Replication>0</Replication>
+    <ModificationTime>2025-02-05 23:20</ModificationTime>
+    <AccessTime>1970-01-01 0:00</AccessTime>
+    <Permission>drwxr-xr-x</Permission>
+    <UserName>ubuntu</UserName>
+    <GroupName>supergroup</GroupName>
+  </File>
+  <File>
+    <Path>/user/john</Path>
+    <Replication>0</Replication>
+    <ModificationTime>2025-02-05 23:27</ModificationTime>
+    <AccessTime>1970-01-01 0:00</AccessTime>
+    <Permission>drwxr-xr-x</Permission>
+    <UserName>ubuntu</UserName>
+    <GroupName>supergroup</GroupName>
+  </File>
+  <File>
+    <Path>/user/john/README.txt</Path>
+    <Replication>1</Replication>
+    <ModificationTime>2025-02-05 23:30</ModificationTime>
+    <AccessTime>2025-02-06 0:38</AccessTime>
+    <PreferredBlockSize>134217728</PreferredBlockSize>
+    <BlocksCount>1</BlocksCount>
+    <FileSize>350</FileSize>
+    <Permission>-rw-r--r--</Permission>
+    <UserName>ubuntu</UserName>
+    <GroupName>supergroup</GroupName>
+  </File>
+</FileSystemMetadata>
